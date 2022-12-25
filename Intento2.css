@@ -1,0 +1,456 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Logo y menu*/
+
+.menu{
+    width: 100%;
+    /*background-color: yellow;*/
+    height: 70px;
+}
+
+.ancho{
+    width: 100%;
+    height: 70px;
+    /*background-color: red;*/
+    margin: auto;
+}
+
+.logo{
+    width: 50%;
+    height: 70px;
+    /*background-color: blue;*/
+    float: left;
+    padding-left: 10%;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.logo p a {
+    color: rgb(8, 161, 221);
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+nav{
+    width: 50%;
+    height: 70px;
+    background-color: rgba(158, 183, 230, 0.336);
+    float: left;
+    text-align: left;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #444;
+    font-size: 13px;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.hoax{
+    background-color: rgb(8, 161, 221);
+    color: white;
+    border-radius: 6px 6px 6px 6px;
+    text-align: center;    
+    width: 200%;
+    height: 150%;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(8, 161, 221);
+    font-size: 15px;
+
+}
+
+.hoax:hover{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+}
+
+/*Presentacion*/
+
+/*.presentacion{
+    background-color: blue;
+}
+
+.mensajeBienvenida{
+    width: 50%;
+    background-color: yellowgreen;
+}
+
+.figth{
+    width: 100%;
+    height: 30%;
+    color:aqua;
+    background-color: yellow;
+    text-align: center;
+}
+
+.lets{
+    width: 100%;
+    height: 70%;
+    background-color: blueviolet;
+}
+
+.insignias .insignia1 .insignia2{
+    background-color: brown;
+    max-width: 50%;
+    display: inline;
+
+
+}
+
+.insignias i{
+    background-color: cadetblue;
+    color: chocolate;
+    display: inline-block;
+}
+
+.insignia1 {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+}
+
+.insignia2 {
+    width: 50%;
+    height: 50%;
+    background-color: bisque;
+}*/
+
+.parteUno{
+    padding-left: 10%;
+    display: flex;
+}
+
+.onePone{
+    width: 50%;
+}
+
+.twoPone{
+    width: 50%;
+
+}
+
+.figth{
+    width: 100%;
+    height: 50%;
+}
+
+.figth h1{
+    color:rgb(7, 114, 156);
+}
+
+.figth p{
+    color:#444;
+    max-width: 45%;
+}
+
+.figuras{
+    height: 50%;
+}
+
+.figuras div{
+    display: inline-block;
+    margin: 5px;
+
+}
+
+.figuras div p {
+    color:rgb(7, 114, 156);
+}
+
+.figuras div i{
+    color: rgb(255, 167, 36);
+    background-color: rgb(236, 105, 29);
+}
+
+/*Parte Dos*/
+
+.parteDos{
+    padding-left: 10%;
+}
+
+.schedule{
+    width: 70%;
+}
+
+.data{
+    box-sizing: border-box;
+    display:flex;
+
+}
+
+.data div{
+    padding-left: 80px;
+}
+
+.submit input{
+    background-color: rgb(8, 161, 221);
+    color: white;
+    border-radius: 6px 6px 6px 6px;
+    text-align: center;
+    font-size: large;
+    width: 200%;
+    height: 150%;
+}
+
+.submit input:hover{
+    height: 170%;
+    width: 220%;
+
+}
+
+/*Parte Tres*/
+
+.parteTres{
+    background-color: yellowgreen;
+    align-items: center;
+    display: inline;
+}
+
+.imagenes{
+    align-items: center;
+    padding-left: 10%;
+}
+
+.parteTres img{
+    width: 20%;
+    height: 70px;
+    margin-left: 15px;
+    opacity: 50%;
+    color: black;
+}
+
+/*Parte Cuatro*/
+
+.parteCuatro{
+    padding-left: 10%;
+}
+
+.whyShould{
+    width: 50%;
+    height: 70%;
+}
+
+.whyShould h1{
+    color:rgb(7, 114, 156);
+}
+
+.whyShould p{
+    color:#444;
+    max-width: 60%;
+}
+
+.tarjetas{
+    box-sizing: border-box;
+    display:flex; 
+    padding-right: 10%;
+}
+
+.tarjetas div{
+    margin-left: 50px;
+    border: solid rgba(7, 114, 156, 0.377);
+    border-radius: 6px 6px 6px 6px;
+
+
+}
+
+.tarjetas h3{
+    color: rgb(7, 114, 156);
+    text-align: center;
+}
+
+.tarjetas p {
+    color: #444;
+    text-align: center;
+}
+
+.tarjetas i{
+    align-items: center;
+}
+
+.tarjetas div:hover{
+    border: none;
+    size: 10%;
+
+}
+
+/*Parte Cinco*/
+
+
+.parteCinco{
+    display: flex;
+    padding-left: 10%;
+   
+}
+
+.one{
+    width: 50%;
+    
+}
+
+.two{
+    width: 50%;
+    padding-right: 10%;
+}
+
+.two h1{
+    color:rgb(7, 114, 156);
+
+}
+
+.two p{
+    color: #444;
+    max-width: 60%;
+
+}
+
+.instructions div{
+    border: solid rgba(128, 128, 128, 0.178);
+    border-radius: 6px 6px 6px 6px;
+
+}
+
+
+/*Parte Seis*/
+
+.parteSeis {
+    display: flex;
+}
+
+.onePsix {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.emergency{
+}
+
+.emergency h1{
+    color:rgb(7, 114, 156);
+}
+
+.emergency p{
+    color: #444;
+    max-width: 55%;
+}
+
+.numbers1{
+    float: center;
+    height: 80%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.numbers1{
+    padding-top: 10px;
+
+}
+
+.marcar {
+    border:solid #444;
+    border-radius: 6px 6px 6px 6px;
+    padding: 10%;
+    margin: 10%;
+}
+
+.chat{
+    border:solid #444;
+    border-radius: 6px 6px 6px 6px;
+    padding: 10%;
+    margin: 10%;
+}
+
+.video{
+    border:solid #444;
+    border-radius: 6px 6px 6px 6px;
+    padding: 10%;
+    margin: 10%;
+}
+
+.message{
+    border:solid #444;
+    border-radius: 6px 6px 6px 6px;
+    padding: 10%;
+    margin: 10%;
+}
+
+.oneone{
+    width:50% ;
+    max-height: 50%;
+}
+
+.twotwo{
+    width: 50%;
+    max-height: 50%;
+}
+
+.numbers1 .title{
+    color: blue;
+}
+
+.numbers1 .desc{
+    color: #444;
+}
+
+.numbers1 .buton input{
+    background-color: rgb(8, 161, 221);
+    color: white;
+    border-radius: 6px 6px 6px 6px;
+    text-align: center;
+    font-size: large;
+}
+
+.numbers1 .buton input:hover{
+    height: 110%;
+    width: 110%;
+}
+
+/*Footer*/
+footer section{
+    background-color: rgba(158, 183, 230, 0.336);
+    color: rgb(8, 161, 221);
+    display: flex;
+}
+
+.left{
+    width: 50%;
+}
+
+
+
+.rigth{
+    width: 50%;
+    display: flex;
+}
+
+.rigth div{
+    padding-left: 10%;
+    text-align: left;
+}
+
+.rigth ul a{
+    text-decoration: none;
+    text-decoration: none;
+}
+
