@@ -1,2 +1,2 @@
-# Vaccination-Campaign-Pr-ctica-HTML-y-CSS
+# Vaccination-Campaign-Practica-HTML-y-CSS
 Recreación de página usando solo HTML y CSS
